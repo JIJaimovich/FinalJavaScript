@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinalJS</title>
+    <!-- enlace a fuentes de google -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
+    <!-- enlace css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- enlace css tostify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- enlace a mi estilo de css -->
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid navBar">
+            <ul>
+                <li>UNIT 1</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="container cuerpo">
+            <div class="container mb-3 mt-5">
+                <div class="row">
+                    <h1 class="texto">Colors</h1>
+                </div>
+            </div>
+            <div id="circulo"></div>
+            <h3 id="mensaje" class="text-center">Rojo</h3>
+            <p id="consigna" class="text-center">Escribí en inglés la respuesta</p>
+
+            <div class="row d-flex justify-content-center gap-2">
+                <input type="text" id="inputRta" class="col-4 inputClass" placeholder="Ingresá tu resupuesta">
+                <button type="button" id="botonRta" class="col-1 btn btn-secondary text-center">OK</button>
+            </div>
+            <!-- Notificaciones -->
+            <div class="row d-flex justify-content-center">
+                <div id="bien" class="col-4 mt-2 alert alert-primary alert-dismissible" style="display: none">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+                <div id="mal" class="col-4 mt-2 alert alert-secondary alert-dismissible" style="display: none">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 CoderHouse Factory</p>
+    </footer>
+
+    <!-- enlace JS bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- enlace JS tostify-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- enlace a MI javaScript -->
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

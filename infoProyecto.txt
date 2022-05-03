@@ -1,0 +1,10 @@
+Fecha: 3/5/2022
+Curso: Coder House JavaScript
+Alumno: Juan Ignacio Jaimovich
+Proyecto:
+Sitio de e-learning con ejercicios interactivos estilo flash-cards para aprender y practicar conceptos y definiciones.
+Entrega final:
+-Simula una unidad de estudio compuesta por 7 términos con sus conceptos y definiciones.
+-Comprueba aciertos y errores.
+-Valida campos de información.
+-Informa resultados.

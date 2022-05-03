@@ -1,0 +1,59 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+.texto {
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+        }
+.boton {
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+        }
+      
+#caja { 
+    display: flex; align-items: center; justify-content: center;
+    }
+#circulo {
+    background: red;
+    border-radius: 50%; width: 150px; 
+    height: 150px;
+    margin: 0 auto;
+}
+#respuesta{
+    max-width: 500px;
+}     
+.cuerpo {
+    height: 90vh;
+}  
+.navBar{
+    background-color: rgb(43, 40, 40);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ul{
+    list-style: none;
+}
+li{
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+    
+}
+footer{
+    background-color: rgb(43, 40, 40);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+h3{
+    margin-top: 2px;
+}
