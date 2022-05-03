@@ -3,8 +3,7 @@
 fetch ('/data.json')
     .then ((res) => res.json())
     .then ((data) => {
-      color = data[0].contenido
-        
+      color = data[0].contenido        
     })
 
 //asignaciones
