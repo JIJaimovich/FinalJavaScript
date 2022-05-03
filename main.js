@@ -1,10 +1,17 @@
 
-// fetch
+/* fetch
 fetch ('/data.json')
     .then ((res) => res.json())
     .then ((data) => {
       color = data[0].contenido        
     })
+
+
+*/
+const color = ["rojo", "red", "amarillo", "yellow", "verde", "green", "azul", "blue", "naranja", "orange", "fin", "black"];
+
+//storage
+sessionStorage.setItem("colores", color);
 
 //asignaciones
 let cuento = 0;
