@@ -1,3 +1,4 @@
 [
-    {"nombre": "Unidad1", "contenido": ["rojo", "red", "amarillo", "yellow", "verde", "green", "azul", "blue", "naranja", "orange", "fin", "black"], "id": 1 }
+    {"nombre": "Unidad1", "contenido": ["rojo", "red", "amarillo", "yellow", "verde", "green", "azul", "blue", "naranja", "orange", "fin", "black"], "id": 1 },
+    {"nombre": "Unidad2", "contenido": ["rosa", "pink", "violeta", "violet", "púrpura", "purple", "gris", "grey", "marrón", "brown", "fin", "black"], "id": 2 }    
 ]
